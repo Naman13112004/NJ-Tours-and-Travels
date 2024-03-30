@@ -1,0 +1,113 @@
+@media screen and (max-width: 1300px) {
+
+    /* Menubar */
+
+    header {
+        flex-direction: column;
+        height: fit-content;
+        min-width: 100vw;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header ul {
+        padding: 13px;
+    }
+
+    header ul li a {
+        padding: 0 12px;
+    }
+
+    /* Home Section */
+
+    #home {
+        height: fit-content;
+    }
+
+    #home::before {
+        min-width: 100vw;
+    }
+
+    #home #tagline {
+        font-size: 2em;
+        padding-top: 15px;
+        padding-left: 5px;
+        text-align: center;
+    }
+
+    section #desc_text {
+        font-size: 1.2em;
+        padding: 15px 5px;
+        text-align: center;
+    }
+
+    section button {
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    /* About Section */
+
+    #about {
+        height: auto;
+        min-width: 100vw;
+    }
+
+    #aboutUs {
+        font-size: 2em;
+        margin-top: 10px;
+    }
+
+    #aboutPara {
+        font-size: 1.2em;
+        padding: 15px 10px;
+    }
+
+    /* Tour Packages Section */
+
+    #tour_packages {
+        min-width: 100vw;
+
+    }
+
+    #tour_packages h2 {
+        font-size: 2em;
+    }
+
+    .card {
+        min-width: 45%;
+        margin: 0 5px;
+    }
+
+    .card img {
+        height: 27vh;
+        width: 18vw;
+    }
+
+    .card p {
+        font-size: 1em;
+        padding: 5px 30px;
+        text-align: center;
+    }
+
+    .card p:first-child {
+        font-size: 1.2em;
+        padding-top: 30px;
+    }
+
+    /* Contact Section */
+
+    #contact::before {
+        min-width: 100vw;
+        height: 80vh;
+    }
+
+    #contact h2 {
+        font-size: 2em;
+    }
+
+    #contact input,
+    #contact select {
+        width: 60vw;
+    }
+}

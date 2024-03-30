@@ -1,0 +1,65 @@
+@media screen and (min-width: 1301px) {
+
+    /* Menubar */
+
+    header {
+        height: fit-content;
+        min-width: 100vw;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    /* Home Section */
+
+    #home {
+        height: fit-content;
+    }
+
+    #home::before {
+        min-width: 100vw;
+    }
+
+    #home #tagline {
+        text-align: center;
+    }
+
+    section #desc_text {
+        text-align: center;
+    }
+
+    section button {
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    /* About Section */
+
+    #about {
+        height: auto;
+        min-width: 100vw;
+    }
+
+    #aboutUs {
+        font-size: 2.5em;
+        margin-top: 10px;
+    }
+
+    #aboutPara {
+        font-size: 1.5em;
+    }
+
+    /* Contact Section */
+
+    #contact::before{
+        min-width: 100vw;
+        height: 82vh;
+    }
+
+    #contact h2{
+        font-size: 2.5em;
+    }
+
+    #contact input, #contact select{
+        width: 50vw;
+    }
+}
