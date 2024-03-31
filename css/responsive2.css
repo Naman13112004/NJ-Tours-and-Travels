@@ -1,4 +1,4 @@
-@media screen and (max-width: 1300px) {
+@media screen and (min-width: 700px) and (max-width: 1300px) {
 
     /* Menubar */
 
@@ -99,7 +99,7 @@
 
     #contact::before {
         min-width: 100vw;
-        height: 80vh;
+        height: 70vh;
     }
 
     #contact h2 {
