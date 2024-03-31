@@ -1,5 +1,9 @@
 @media screen and (max-width: 700px) {
 
+    *{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
     /* Menubar */
 
     header {
@@ -22,6 +26,7 @@
 
     #home::before {
         min-width: 100vw;
+        height: -webkit-fill-available;
     }
 
     #home #tagline {
@@ -82,7 +87,7 @@
     }
 
     .card p {
-        font-size: 1.4em;
+        font-size: 1em;
         padding: 5px 30px;
         text-align: center;
     }
@@ -96,7 +101,7 @@
 
     #contact::before{
         min-width: 100vw;
-        height: 65vh;
+        height: 80vh;
     }
 
     #contact h2{
