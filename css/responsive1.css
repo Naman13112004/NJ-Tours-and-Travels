@@ -14,6 +14,10 @@
         justify-content: center;
     }
 
+    header ul li{
+        margin: 10px 0;
+    }
+
     header ul li a {
         font-size: 0.7em;
         padding: 0 15px;
@@ -102,7 +106,7 @@
 
     #contact::before {
         min-width: 100vw;
-        height: -webkit-fill-available;
+        height: 85vh;
     }
 
     #contact h2 {

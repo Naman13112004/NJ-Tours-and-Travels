@@ -71,7 +71,7 @@ header ul li{
 
 header ul li a{
     text-decoration: none;
-    color: cyan;
+    color: white;
 }
 
 header ul li a:hover{
@@ -85,12 +85,12 @@ header ul li a:hover{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 68vh;
+    height: 65vh;
 }
 
 #home::before{
     content: "";
-    background:url('../images/background1.jpeg') center center / cover no-repeat;
+    background: rgb(18, 18, 18) center center / cover no-repeat;
     display: inline-block;
     height: 80vh;
     width: 100vw;
@@ -98,18 +98,20 @@ header ul li a:hover{
     top: 0px;
     left: 0px;
     z-index: -1;
-    opacity: 0.4;
+    /* opacity: 0.4; */
 }
 
 section #tagline{
     font-size: 2.5em;
     padding-top: 50px;
     font-weight: bold;
+    color: white;
 }
 
 section #desc_text{
     font-size: 1.5em;
     padding: 40px 60px 30px 60px;
+    color: white;
 }
 
 section button{
@@ -128,11 +130,15 @@ section button a{
 }
 
 section button:hover{
-    background-color: goldenrod;
-    color: black;
+    background-color: rgb(18, 18, 18);
+    border-color: white;
     height: 45px;
     width: 130px;
     transition: all 0.1s ease-in-out;
+}
+
+section button:hover>a{
+    color: white;
 }
 
 /* About Section */
@@ -142,19 +148,34 @@ section button:hover{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: beige;
+    background-color: rgb(18, 18, 18);
     width: 100vw;
-    height: 90vh;
+    height: fit-content;
 }
 
 #aboutUs{
     font-size: 2.5em;
     font-weight: bold;
+    color: white;
+    padding-top: 75px;
 }
 
 #aboutPara{
     font-size: 1.5em;
-    padding: 40px 60px 30px 60px;
+    padding: 40px 60px;
+    padding-bottom: 60px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#readMore{
+    display: none;
+}
+
+#aboutPara a{
+    text-decoration: underline;
+    color: skyblue;
+    cursor: pointer;
 }
 
 /* Tour Packages Section */
@@ -164,6 +185,8 @@ section button:hover{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    background-color: rgb(18, 18, 18);
+    padding-bottom: 30px;
 }
 
 #tour_packages .heading:nth-child(odd){
@@ -173,8 +196,10 @@ section button:hover{
 
 #tour_packages h2{
     margin: 20px 0;
+    margin-top: 75px;
     font-size: 2.5em;
     font-weight: bold;
+    color: white;
 }
 
 .package-cards{
@@ -200,9 +225,16 @@ section button:hover{
     flex: 0 0 auto;
     width: 42vw;
     height: 67vh;
-    background-color: bisque;
+    background-color: white;
     margin-left: 70px;
     margin-right: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card:hover{
+    background-color: rgb(18, 18, 18);
+    color: white;
+    border-color: white;
 }
 
 .card img{
@@ -233,17 +265,20 @@ section button:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 20px;
+}
+
+#contact h2{
+    color: white;
 }
 
 #contact::before{
     content: "";
-    background: url('../images/background2.jpeg') no-repeat center center/cover;
+    background: rgb(18, 18, 18) no-repeat center center/cover;
     position: absolute;
     height: 80%;
     width: 100vw;
     z-index: -1;
-    opacity: 0.5;
+    /* opacity: 0.5; */
 }
 
 #contact h2{
@@ -279,4 +314,10 @@ section button:hover{
 #contact input:last-child{
     cursor: pointer;
     background-color: greenyellow;
+}
+
+#contact input:last-child:hover{
+    background-color: rgb(18, 18, 18);
+    color: white;
+    border-color: white;
 }
