@@ -42,7 +42,8 @@
     }
 
     section button {
-        height: auto;
+        height: 40px;
+        width: 130px;
         margin-bottom: 15px;
     }
 

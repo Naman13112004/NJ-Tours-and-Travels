@@ -1,7 +1,7 @@
 @media screen and (max-width: 700px) {
 
     * {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: 'Courier New', Courier, monospace;
     }
 
     /* Menubar */
@@ -48,7 +48,8 @@
     }
 
     section button {
-        height: auto;
+        height: 40px;
+        width: 130px;
         margin-bottom: 15px;
     }
 
