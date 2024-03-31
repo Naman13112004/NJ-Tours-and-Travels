@@ -1,6 +1,6 @@
 @media screen and (max-width: 700px) {
 
-    *{
+    * {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
@@ -14,8 +14,9 @@
         justify-content: center;
     }
 
-    header ul {
-        flex-direction: column;
+    header ul li a {
+        font-size: 0.7em;
+        padding: 0 15px;
     }
 
     /* Home Section */
@@ -99,16 +100,17 @@
 
     /* Contact Section */
 
-    #contact::before{
+    #contact::before {
         min-width: 100vw;
-        height: 80vh;
+        height: -webkit-fill-available;
     }
 
-    #contact h2{
+    #contact h2 {
         font-size: 2em;
     }
 
-    #contact input, #contact select{
+    #contact input,
+    #contact select {
         width: 90vw;
     }
 }
